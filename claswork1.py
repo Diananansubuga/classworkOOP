@@ -1,0 +1,20 @@
+# write a python programe that reads input form the keyboard and prints out the information in the following format: name:
+# course: course unit: registration: department: faculty: email: phone:
+name=input("please enter your name:")
+course=input("please enter yourcourse:")
+course_unit=input("please enter your course unit")
+registration_no=input("please enter your registartion number:")
+department=input("please enter your department:")
+faculty=input("please enter your faculty:")
+email=input("please enter your name email:")
+phone=input("please enter your name phone:")
+
+print( "name:",name)
+print( "course:",course)
+print( "course unit:",course_unit)
+print( "registration no:",registration_no)
+print( "department:",department)
+print( "faculty:",faculty)
+print( "email:",email)
+print( "phone:",phone)
+print( "name:",name)

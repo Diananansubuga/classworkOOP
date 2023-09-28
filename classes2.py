@@ -18,6 +18,7 @@ class Person:
     print(f'{self.name} is leaving work')
 
 
+
 person1 = Person('John', 'male', 'doctor')
 person2 = Person('Mary', 'female', 'lawyer')
 person3 = Person('Bob', 'male', 'teacher')
@@ -26,4 +27,5 @@ person3 = Person('Bob', 'male', 'teacher')
 person1.working()
 person2.study()
 person3.leave()
+
         

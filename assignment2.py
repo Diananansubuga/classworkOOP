@@ -1,0 +1,1 @@
+# write a procedual programme then convert it to an object oriented programme

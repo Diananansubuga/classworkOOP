@@ -1,4 +1,6 @@
 # write a procedual python program that calculates average of numbers between 1 and 50 and dipslays the results. rewrite the program and convert it into an object oriented program.
+# PROCEDUAL APPROACH
+
 total=0
 count=0
 

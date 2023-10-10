@@ -22,16 +22,16 @@ class Circle:
         self.center = [x, y]
 
 # Create a Tkinter window
-window = tk.Tk()
-window.title("Circle Drawing")
+tab = tk.Tk()
+tab.title("Circle Drawing")
 
 # Create a canvas to draw on
-canvas = tk.Canvas(window, width=400, height=400)
+canvas = tk.Canvas(tab, width=400, height=800)
 canvas.pack()
 
 # Create a Circle object and draw it on the canvas
-circle = Circle(200, 200, 50)
+circle = Circle(200, 200, 40)
 circle.draw(canvas)
 
 # Run the Tkinter main loop
-window.mainloop()
+tab.mainloop()

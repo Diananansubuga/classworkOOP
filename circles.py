@@ -3,7 +3,7 @@
 import tkinter as tk
 class Circle(object):
     def __init__(self,center,radius):
-        self.center=center
+        self.center=center,
         self.radius=radius
 
     def draw(self,canvas):
@@ -30,7 +30,7 @@ circle = Circle( 200, 50)
 circle.draw(canvas)
 
 # Run the Tkinter main loop
-window.mainloop()
+window.mainloop()           
 
 
 

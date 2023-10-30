@@ -32,7 +32,7 @@ class MyFraction:
         return MyFraction(new_numerator, new_denominator)
 
 
-fraction = MyFraction(3, 6  )
+fraction = MyFraction(-3, 6  )
 other_fraction = MyFraction(4, 9)
 
 add_result = fraction + other_fraction

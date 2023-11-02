@@ -1,3 +1,2 @@
-from exercise1 import addition
-
-print()
+from exercise1 import Arithmetic
+# Create an instance of the class and call its methods
